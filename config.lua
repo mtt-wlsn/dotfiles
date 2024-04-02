@@ -17,13 +17,13 @@ vim.opt.foldmethod = "expr"
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
 
 lvim.plugins = {
-▏ "Mofiqul/dracula.nvim",
-▏ {
+  "Mofiqul/dracula.nvim",
+  {
     "Pocco81/auto-save.nvim",
     config = function()
       require("auto-save").setup()
     end,
-▏ }
+  }
 }
 
 lvim.colorscheme = "dracula"
